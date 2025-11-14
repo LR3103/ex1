@@ -11,6 +11,7 @@ int main()
 {
 
     // Ascii
+    printf("Ascii:\n");
     printf("Please enter a character\n");
     /*. Scan one character from the user.
         Then, refer to it as an integer.
@@ -33,7 +34,7 @@ int main()
     int negativeNumber;
     printf("Please enter a negative integer \n");
     scanf(" %d", &negativeNumber);
-    printf("1's complement: %d\n", ~negativeNumber);
+    printf("1's complement: %d\n", -(~negativeNumber));
     printf("unsigned: %u\n", negativeNumber);
 
     // Shifting right and left
