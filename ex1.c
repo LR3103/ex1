@@ -69,7 +69,7 @@ int main()
         Print their LSB’s.
         Print their MSB’s. */
         unsigned int octalNumber, hexNumber;
-        printf("Please enter two numbers in octal and hexadecimal bases: \n");
+        printf("Please enter two numbers in octal and hexadecimal bases \n");
         scanf(" %o %x", &octalNumber, &hexNumber);
         const int shiftNumber = 31;
         const unsigned msbBitOn = 1 << shiftNumber; // 10000000
