@@ -22,7 +22,7 @@ int main()
 
     char x; 
     scanf(" %c", &x);
-    printf("Its numerical Value is: %d\n", x);
+    printf("Its numerical value is: %d\n", x);
     printf("0 for even, 1 for odd: %d\n", x & 1);
 
     // 2's complement and other representations
@@ -48,7 +48,7 @@ int main()
     printf("Please enter 3 integers \n");
     scanf(" %d %d %d", &shiftableNumber, &rightShiftInt, &leftShiftInt);
     int shiftResult = (shiftableNumber >> rightShiftInt) << leftShiftInt;
-    printf("after shifting right and left: %d\n\n", shiftResult);
+    printf("After shifting right and left: %d\n\n", shiftResult);
 
     // Even - Odd
     printf("\nEven - Odd:\n");
@@ -57,7 +57,7 @@ int main()
     If at least two of them are odd - print 1. */
 
     int a, b, c;
-    printf("Please enter 3 integers: \n");
+    printf("Please enter 3 integers \n");
     scanf(" %d %d %d", &a, &b, &c);
     int conditionResult = ((a&b) | (a&c) | (b&c))&1;
     printf("0 - most of them are even, 1 - most of them are odd: %d\n", conditionResult);
@@ -73,8 +73,8 @@ int main()
         scanf(" %o %x", &octalNumber, &hexNumber);
         const int shiftNumber = 31;
         const unsigned msbBitOn = 1 << shiftNumber; // 10000000
-        printf("LSB's: %u %u \n", octalNumber & 1, hexNumber & 1);
-        printf("MSB's: %u %u\n", (octalNumber &  msbBitOn) >> shiftNumber, (hexNumber &  msbBitOn) >> shiftNumber);
+        printf("LSBs: %u %u \n", octalNumber & 1, hexNumber & 1);
+        printf("MSBs: %u %u\n", (octalNumber &  msbBitOn) >> shiftNumber, (hexNumber &  msbBitOn) >> shiftNumber);
 
     printf("Bye!\n");
 
