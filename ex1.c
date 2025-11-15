@@ -1,11 +1,12 @@
 /******************
-Name:
-ID:
-Assignment:
+Name: Lior Rogov
+ID: 215303207
+Assignment: excercise 1
 *******************/
 #include <stdio.h>
 
 // REMIDER : YOU CANT USE ANY CONTROL FLOW OPERATIONS OR FUNCTIONS, ONLY BITWISE. not even "==, &&, ||, !="
+
 
 int main()
 {
